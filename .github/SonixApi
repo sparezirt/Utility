@@ -1,4 +1,18 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
 
+-- Blacklist using real UserIds
+local blacklistUserIds = {
+    [8547523896] = true, -- retard
+    [872235399] = true, -- Known reposter
+    [76543210] = true, -- Script leaker
+}
+
+-- If you're blacklisted, you're gone.
+if blacklistUserIds[LocalPlayer.UserId] then
+    LocalPlayer:Kick("🚫 You're blacklisted from using this script.")
+    return
+end
 local oa = {}
 
 oa.AddHat = function(id)
