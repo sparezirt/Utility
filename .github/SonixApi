@@ -6,6 +6,7 @@ local blacklistUserIds = {
     [8547523896] = true, -- retard
     [872235399] = true, -- annoying kid
     [8325497444] = true, -- attention seeker
+    [8368412281] = true, 
 }
 
 -- If you're blacklisted, you're gone.
