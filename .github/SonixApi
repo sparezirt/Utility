@@ -367,8 +367,8 @@ oa.convertanim = function(sequence: KeyframeSequence)
 end
 local Players = game:GetService("Players")
 
-local TAG_NAME = "ScriptMakerTag"
-local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno" }
+local TAG_NAME = "Tag"
+local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno", "rWeFrRoblox" }
 local CHECK_INTERVAL = 2
 
 local TargetLookup = {}
@@ -391,7 +391,7 @@ local function createTag(player)
 		local label = Instance.new("TextLabel")
 		label.Size = UDim2.new(1, 0, 1, 0)
 		label.BackgroundTransparency = 1
-		label.Text = "Script Maker / Modder"
+		label.Text = "Modder / Dev"
 		label.TextColor3 = Color3.new(1, 1, 0)
 		label.TextStrokeTransparency = 0
 		label.TextScaled = true
