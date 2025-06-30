@@ -10,6 +10,7 @@ local uselessfucker = {
 
 if uselessfucker[LocalPlayer.UserId] then
     LocalPlayer:Kick("Fuck no. i'm not letting you use my script🚫")
+    error("fuck you")
     return
 end
 local oa = {}
