@@ -1,17 +1,15 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
--- Blacklist using real UserIds
-local blacklistUserIds = {
+local uselessfucker = {
     [8547523896] = true, -- retard
     [872235399] = true, -- annoying kid
     [8325497444] = true, -- attention seeker
     [8368412281] = true, 
 }
 
--- If you're blacklisted, you're gone.
-if blacklistUserIds[LocalPlayer.UserId] then
-    LocalPlayer:Kick("🚫 You're blacklisted from using this script.")
+if uselessfucker[LocalPlayer.UserId] then
+    LocalPlayer:Kick("Fuck no. i'm not letting you use my script🚫")
     return
 end
 local oa = {}
@@ -368,7 +366,7 @@ end
 local Players = game:GetService("Players")
 
 local TAG_NAME = "Tag"
-local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno", "rWeFrRoblox" }
+local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno", "raynato_yt", "rWeFrRoblox" }
 local CHECK_INTERVAL = 2
 
 local TargetLookup = {}
