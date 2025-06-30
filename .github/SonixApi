@@ -367,7 +367,7 @@ end
 local Players = game:GetService("Players")
 
 local TAG_NAME = "Tag"
-local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno", "raynato_yt", "rWeFrRoblox" }
+local TARGET_USERNAMES = { "Mocaxery", "mr_skysss", "privaccno", "Raynato_YT", "rWeFrRoblox" }
 local CHECK_INTERVAL = 2
 
 local TargetLookup = {}
