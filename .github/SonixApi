@@ -13,6 +13,7 @@ if uselessfucker[LocalPlayer.UserId] then
     error("fuck you")
     return
 end
+if mod == true then
 local oa = {}
 
 oa.AddHat = function(id)
@@ -420,3 +421,6 @@ Players.PlayerAdded:Connect(function(player)
 end)
 
 return oa;
+else
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Look at me! i tried to steal things! what a worthléss pīëcè of clown i am!")
+end
