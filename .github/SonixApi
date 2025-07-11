@@ -367,6 +367,7 @@ oa.convertanim = function(sequence: KeyframeSequence)
 end
 if not getgenv()["Whitelist"] then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstraOutlight/my-scripts/refs/heads/main/namertag"))()
+end
 return oa;
 else
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Look at me! i tried to steal things! what a worthléss pīëcè of clown i am!")
